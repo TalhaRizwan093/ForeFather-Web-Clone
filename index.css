@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Kaoly";
+  src: url("./Kaoly Demo-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #331100;
+  font-family: "Kaoly", serif;
+}
+
+.logo {
+  font-family: "Alstoria";
+  font-size: 50px;
+}
+
+.mail_img_div {
+}
+.estb {
+  background: #331100;
+  color: white;
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+.features {
+  background-color: #ada89b;
+  padding: 1rem;
+}
+
+#nav_options {
+  display: none;
+}
+
+.features-headings {
+  font-size: 27px;
+}
+
+.row-mob {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.body-section {
+  display: none !important;
+}
+
+.title-desc {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #nav_options {
+    display: flex;
+  }
+
+  .behold {
+    font-size: 85px;
+  }
+  .design_title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .row_pc {
+    padding: 0%;
+    margin-top: 1% !important;
+  }
+
+  .mail_img_div {
+    margin-top: -1% !important;
+  }
+
+  .pc-col {
+    margin-top: 50%;
+  }
+
+  .row_pc :nth-child(1) {
+    padding: 0%;
+    order: 4;
+  }
+  .row_pc :nth-child(2) {
+    order: 6;
+  }
+  .row_pc :nth-child(3) {
+    order: 2;
+  }
+  .row_pc :nth-child(4) {
+    padding: 0%;
+    order: 3;
+  }
+  .row_pc :nth-child(5) {
+    padding: 0%;
+    order: 5;
+  }
+  .row_pc :nth-child(6) {
+    padding: 0%;
+    order: 5;
+  }
+  /* .row_pc :nth-child(7) {
+    padding: 0%;
+    order: 6;
+  } */
+
+  .features {
+    background-color: initial;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 0%;
+  }
+
+  .logo {
+    font-family: "Alstoria";
+    font-size: 3vw;
+  }
+
+  .features-headings {
+    font-size: 1.5rem;
+  }
+  .header-txt {
+    font-size: 0.8rem;
+  }
+
+  .monkey {
+    margin-left: -50px;
+    width: 30vw;
+  }
+
+  .behold {
+    font-size: 5vw;
+  }
+  .design_title {
+    font-size: 3vw;
+  }
+
+  .design_title {
+    margin-top: -37%;
+  }
+  .title-desc {
+    margin-top: -14% !important;
+  }
+
+  .btn_div {
+    margin-top: -17% !important;
+  }
+
+  .btn_custom {
+    margin-left: 10%;
+    width: 30%;
+    height: 30%;
+    background: url("./Images/Button.png");
+    background-size: 100% 100%;
+  }
+
+  .swirl {
+    width: 17vw;
+  }
+  .behold {
+    margin-top: 20%;
+  }
+}
